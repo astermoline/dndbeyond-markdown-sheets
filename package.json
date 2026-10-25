@@ -1,12 +1,23 @@
 {
   "name": "dndbeyond-markdown-sheets",
   "version": "1.0.0",
-  "description": "Chrome extension to export D&D Beyond characters, monsters, and items to Foundry-compatible Markdown.",
+  "description": "Chrome extension to export D&D Beyond characters, monsters, and items to Markdown formatted for the foundry-markdown-sheets Foundry VTT module and Obsidian.",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build"
   },
+  "author": {
+    "name": "Aster Moline",
+    "email": "aster@moline.dev",
+    "url": "https://aster.quest"
+  },
+  "homepage": "https://aster.quest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astermoline/dndbeyond-markdown-sheets.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@astermoe/dndbeyond-parser": "file:../dndbeyond-parser"
   },

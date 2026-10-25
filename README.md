@@ -40,10 +40,10 @@ This compiles the extension into the `dist/` directory using Vite.
 
 ## Architecture
 
-This extension consumes [`@astermoe/dndbeyond-parser`](https://github.com/astermoe/dndbeyond-parser) for data extraction and Markdown generation.
+This extension consumes [`@astermoe/dndbeyond-parser`](https://github.com/astermoline/dndbeyond-parser) for data extraction and Markdown generation.
 
 ---
 
 ## License
 
-MIT © [astermoe](https://github.com/astermoe)
+MIT © [Aster Moline](https://aster.quest) ([@astermoline](https://github.com/astermoline))
