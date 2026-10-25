@@ -1,6 +1,6 @@
 # D&D Beyond Markdown Sheets
 
-Chrome Extension (Manifest V3) that exports D&D Beyond Player Characters, Monster Stat Blocks, and Magic Items / Equipment into Markdown files with YAML frontmatter formatted for [Foundry VTT Markdown Sheets](https://github.com/nickmoline/foundry-markdown-sheets) and [Obsidian](https://obsidian.md).
+Chrome Extension (Manifest V3) that exports D&D Beyond Player Characters, Monster Stat Blocks, and Magic Items / Equipment into Markdown files with YAML frontmatter. The export schema matches the format used by the [Foundry VTT Markdown Sheet Exporter](https://github.com/nickmoline/foundry-markdown-sheets) module, creating uniform notes for [Obsidian](https://obsidian.md), NotebookLM, and [Archivist.AI](https://myarchivist.ai).
 
 ---
 
@@ -9,7 +9,7 @@ Chrome Extension (Manifest V3) that exports D&D Beyond Player Characters, Monste
 - **Character Export**: Complete character sheets (stats, saving throws, skills, inventory with equipped items & weights, features, spells from all sources, spell slots, and backstory) to `<CharacterName>.md`.
 - **Monster / NPC Export**: Parses both classic (2014) and modern (2024) monster layouts with accurate AC, HP formulas, ability matrices, saving throws, actions, traits, reactions, legendary actions, and descriptions to `<MonsterName>.md`.
 - **Item Export**: Exports equipment and magic items directly from item pages or character sheets to `<ItemName>.md`.
-- **Formatted for `foundry-markdown-sheets` & Obsidian**: Foundry VTT does not natively support Markdown sheets; this extension exports files with YAML frontmatter specifically structured for the [Foundry VTT Markdown Sheets](https://github.com/nickmoline/foundry-markdown-sheets) module, as well as Obsidian and other markdown-based campaign managers.
+- **Unified Markdown Schema**: Produces Markdown and YAML frontmatter matching the schema of the [`foundry-markdown-sheets`](https://github.com/nickmoline/foundry-markdown-sheets) Foundry VTT module, so your exported sheets from D&D Beyond and Foundry VTT share the exact same format in your Obsidian vault or campaign notebooks.
 
 ---
 
