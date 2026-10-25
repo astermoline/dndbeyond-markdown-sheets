@@ -2,30 +2,56 @@
   "manifest_version": 3,
   "name": "Down Beyond",
   "version": "1.0.0",
-  "description": "Export D&D Beyond characters, monsters, and items to clean, Foundry-compatible Markdown.",
+  "description": "Export D&D Beyond characters, monsters, items, spells, and sourcebook chapters to clean Markdown with YAML frontmatter.",
   "permissions": [
     "activeTab",
     "scripting"
   ],
   "host_permissions": [
-    "https://www.dndbeyond.com/characters/*",
-    "https://www.dndbeyond.com/monsters/*",
-    "https://www.dndbeyond.com/magic-items/*",
-    "https://www.dndbeyond.com/equipment/*",
+    "https://www.dndbeyond.com/*",
+    "https://auth-service.dndbeyond.com/*",
     "https://character-service.dndbeyond.com/*",
     "https://monster-service.dndbeyond.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.dndbeyond.com/characters/*",
+        "https://www.dndbeyond.com/monsters/*",
+        "https://www.dndbeyond.com/magic-items/*",
+        "https://www.dndbeyond.com/equipment/*",
+        "https://www.dndbeyond.com/spells/*",
+        "https://www.dndbeyond.com/sources/*"
+      ],
+      "js": [
+        "scripts/content.js"
+      ],
+      "run_at": "document_idle"
+    }
   ],
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
   },
   "icons": {
     "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/*.png"
+      ],
+      "matches": [
+        "https://www.dndbeyond.com/*"
+      ]
+    }
+  ]
 }

@@ -1,11 +1,11 @@
 {
   "name": "dndbeyond-markdown-sheets",
   "version": "1.0.0",
-  "description": "Chrome extension to export D&D Beyond characters, monsters, and items to Markdown formatted for the foundry-markdown-sheets Foundry VTT module and Obsidian.",
+  "description": "Chrome extension to export D&D Beyond characters, monsters, items, spells, and sourcebook chapters to clean Markdown with YAML frontmatter.",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build"
+    "build": "vite build && vite build --config vite.content.config.ts"
   },
   "author": {
     "name": "Aster Moline",
