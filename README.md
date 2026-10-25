@@ -9,7 +9,7 @@ Chrome Extension (Manifest V3) that exports D&D Beyond Player Characters, Monste
 - **Character Export**: Complete character sheets (stats, saving throws, skills, inventory with equipped items & weights, features, spells from all sources, spell slots, and backstory) to `<CharacterName>.md`.
 - **Monster / NPC Export**: Parses both classic (2014) and modern (2024) monster layouts with accurate AC, HP formulas, ability matrices, saving throws, actions, traits, reactions, legendary actions, and descriptions to `<MonsterName>.md`.
 - **Item Export**: Exports equipment and magic items directly from item pages or character sheets to `<ItemName>.md`.
-- **Foundry VTT & Obsidian Compatible**: Generates standard YAML frontmatter blocks matching the `foundry-markdown-sheets` schema.
+- **Formatted for `foundry-markdown-sheets` & Obsidian**: Foundry VTT does not natively support Markdown sheets; this extension exports files with YAML frontmatter specifically structured for the [Foundry VTT Markdown Sheets](https://github.com/nickmoline/foundry-markdown-sheets) module, as well as Obsidian and other markdown-based campaign managers.
 
 ---
 

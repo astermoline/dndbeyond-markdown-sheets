@@ -7,18 +7,19 @@
 ## Store Listing Metadata
 
 ### Short Description
-Export character sheets and monster stat blocks from D&D Beyond to Foundry-compatible Markdown.
+Export character sheets, monster stat blocks, and items from D&D Beyond to Markdown formatted for the Foundry VTT Markdown Sheets module and Obsidian.
 
 ### Detailed Description
-Easily export your D&D Beyond player characters and monster stat blocks as clean Markdown files! 
+Easily export your D&D Beyond player characters, monster stat blocks, and magic items as clean Markdown files! 
 
-This extension integrates directly with your browser to generate markdown files formatted exactly like those used in the Foundry VTT Markdown Sheets module.
+This extension integrates directly with your browser to generate markdown files with YAML frontmatter formatted specifically for the [Foundry VTT Markdown Sheets](https://github.com/nickmoline/foundry-markdown-sheets) module (since Foundry does not natively speak markdown), as well as Obsidian and other campaign notebooks.
 
 **Features:**
-- **One-Click Export**: Click the extension icon and select "Export Markdown" on any D&D Beyond character sheet or monster stat block page.
-- **Player Character Export**: Automatically fetches your character data from the D&D Beyond character service, computes final ability scores, resolves equipped inventory, skills, saving throws, active class features, racial traits, feats, and spell lists.
-- **NPC & Monster Export**: Parsers the new 2024 monster layout elements directly from the D&D Beyond page, capturing challenge ratings, AC, HP formulas, speeds, ability matrices, senses, traits, actions, legendary actions, and description blocks.
-- **Foundry VTT Compatible**: Generates markdown with YAML frontmatter structure matching the `foundry-markdown-sheets` format for seamless import.
+- **One-Click Export**: Click the extension icon and select "Export Markdown" on any D&D Beyond character sheet, monster stat block, or magic item page.
+- **Player Character Export**: Automatically fetches your character data from the D&D Beyond character service, computes final ability scores, resolves equipped inventory, skills, saving throws, active class features, racial traits, feats, and spell lists from all sources.
+- **NPC & Monster Export**: Parses both 2014 and 2024 monster layout elements directly from D&D Beyond, capturing challenge ratings, AC, HP formulas, speeds, ability matrices, senses, traits, actions, legendary actions, and description blocks.
+- **Magic Items & Equipment**: Exports equipment and magic item pages with rarity, attunement, properties, and full descriptions.
+- **Formatted for `foundry-markdown-sheets`**: Generates markdown with YAML frontmatter specifically structured for the `foundry-markdown-sheets` Foundry VTT module, enabling Foundry to load and render character sheets from Markdown.
 
 ### Category
 Productivity
