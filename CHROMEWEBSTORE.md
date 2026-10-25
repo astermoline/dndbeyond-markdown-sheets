@@ -1,7 +1,7 @@
-# Chrome Web Store Metadata: D&D Beyond Markdown Sheets
+# Chrome Web Store Metadata: Down Beyond
 
 **Last Updated:** 2026-10-24
-**Extension Name:** D&D Beyond Markdown Sheets
+**Extension Name:** Down Beyond
 **Version:** 1.0.0
 
 ## Store Listing Metadata

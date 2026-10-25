@@ -1,4 +1,4 @@
-# D&D Beyond Markdown Sheets
+# Down Beyond
 
 Chrome Extension (Manifest V3) that exports D&D Beyond Player Characters, Monster Stat Blocks, and Magic Items / Equipment into Markdown files with YAML frontmatter. The export schema matches the format used by the [Foundry VTT Markdown Sheet Exporter](https://github.com/nickmoline/foundry-markdown-sheets) module, creating uniform notes for [Obsidian](https://obsidian.md), NotebookLM, and [Archivist.AI](https://myarchivist.ai).
 

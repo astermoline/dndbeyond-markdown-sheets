@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "D&D Beyond Markdown Sheets",
+  "name": "Down Beyond",
   "version": "1.0.0",
-  "description": "Exports character sheets, monster stat blocks, and items from D&D Beyond to Foundry-compatible Markdown.",
+  "description": "Export D&D Beyond characters, monsters, and items to clean, Foundry-compatible Markdown.",
   "permissions": [
     "activeTab",
     "scripting"
