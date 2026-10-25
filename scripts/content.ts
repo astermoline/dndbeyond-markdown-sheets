@@ -69,14 +69,14 @@ async function runExporter() {
     if (url.includes('dndbeyond.com/magic-items/') || url.includes('dndbeyond.com/equipment/')) {
       const itemId = extractItemId(url);
       let item;
-      if (itemId) {
-        try {
+      try {
+        item = parseItemDom(document);
+      } catch {
+        if (itemId) {
           item = await fetchItemTooltipJson(itemId, { isMagicItem: url.includes('magic-items') });
-        } catch {
+        } else {
           item = parseItemDom(document);
         }
-      } else {
-        item = parseItemDom(document);
       }
 
       const md = itemToMarkdown(item);
