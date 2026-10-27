@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@astermoe/dndbeyond-parser": "file:../dndbeyond-parser"
+    "@astermoe/dndbeyond-parser": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.4.5",
