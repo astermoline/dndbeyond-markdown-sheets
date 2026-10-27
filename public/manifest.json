@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Down Beyond",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Export D&D Beyond characters, monsters, items, spells, and sourcebook chapters to clean Markdown with YAML frontmatter.",
   "permissions": [
     "activeTab",

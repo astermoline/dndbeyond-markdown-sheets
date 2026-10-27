@@ -1,6 +1,6 @@
 {
   "name": "dndbeyond-markdown-sheets",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Chrome extension to export D&D Beyond characters, monsters, items, spells, and sourcebook chapters to clean Markdown with YAML frontmatter.",
   "type": "module",
   "scripts": {
